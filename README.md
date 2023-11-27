@@ -47,3 +47,28 @@ Feel free to explore and modify these scripts to suit your specific requirements
    ```bash
    git clone https://github.com/your-username/Technical-Analysis-for-Algo-Trading.git
    cd Technical-Analysis-for-Algo-Trading
+
+ ## Usage
+ 
+Explore the scripts and customize parameters as needed for your trading strategy. Run the scripts to generate buy signals based on technical analysis.
+
+## Performance Metrics
+
+Evaluate the performance of the trading strategies by analyzing profitability, total return, and other relevant metrics. The performance results are printed at the end of each script execution.
+  
+## Dependencies
+
+Python 3
+Required Python packages (listed in requirements.txt)
+
+## Contributing
+
+Feel free to contribute by opening issues, suggesting enhancements, or submitting pull requests. Your feedback and contributions are highly appreciated.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Author
+
+[Nicky Taylor](https://github.com/CoderNicky)
