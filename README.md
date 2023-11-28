@@ -14,6 +14,7 @@ This repository contains Python scripts for performing technical analysis on fin
 - [Performance Metrics](#performance-metrics)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
+- [Acknowledgments](#Acknowledgments)
 - [License](#license)
 - [Author](#author)
 
@@ -48,7 +49,7 @@ Feel free to explore and modify these scripts to suit your specific requirements
    git clone https://github.com/your-username/Technical-Analysis-for-Algo-Trading.git
    cd Technical-Analysis-for-Algo-Trading
 
- ## Usage
+## Usage
  
 Explore the scripts and customize parameters as needed for your trading strategy. Run the scripts to generate buy signals based on technical analysis.
 
@@ -65,6 +66,8 @@ Required Python packages (listed in requirements.txt)
 
 Feel free to contribute by opening issues, suggesting enhancements, or submitting pull requests. Your feedback and contributions are highly appreciated.
 
+## Acknowledgments
+
 ## License
 
 This project is licensed under the MIT License.
@@ -72,3 +75,7 @@ This project is licensed under the MIT License.
 ## Author
 
 [Nicky Taylor](https://github.com/CoderNicky)
+
+### References
+
+
