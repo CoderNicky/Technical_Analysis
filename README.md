@@ -49,7 +49,7 @@ The Bollinger Bands script fetches historical stock price data from Yahoo Financ
 2. Run the script:
 
     ```bash
-    python Bollinger_bands.ipynb
+    python Bollinger_Bands.ipynb
     ```
 
 3. Use the configure function to input asset tickers, date range, window size, and standard deviation values.
