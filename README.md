@@ -19,10 +19,10 @@ The MACD script fetches historical stock price data from Yahoo Finance, calculat
 2. Run the script:
 
     ```bash
-    python macd_script.py
+    python MACD.ipynb
     ```
 
-3. Follow the prompts to input asset tickers and date ranges, as well as MACD parameter values.
+3. Use the configure function to input asset tickers and date ranges, as well as MACD parameter values.
 
 4. View the generated time series plot with MACD.
 
@@ -49,10 +49,10 @@ The Bollinger Bands script fetches historical stock price data from Yahoo Financ
 2. Run the script:
 
     ```bash
-    python bollinger_bands_script.py
+    python Bollinger_bands.ipynb
     ```
 
-3. Follow the prompts to input asset tickers, date range, window size, and standard deviation values.
+3. Use the configure function to input asset tickers, date range, window size, and standard deviation values.
 
 4. View the generated time series plot with Bollinger Bands.
 
