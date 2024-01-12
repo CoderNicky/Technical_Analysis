@@ -1,81 +1,73 @@
-# Technical Analysis for Algo Trading
+# Time Series Analysis Scripts
 
-## Overview
+This repository contains Python scripts for conducting time series analysis using the Moving Average Convergence Divergence (MACD) and Bollinger Bands indicators. These scripts are designed to fetch historical stock price data, calculate the indicators, and generate visualizations.
 
-This repository contains Python scripts for performing technical analysis on financial market data. The primary goal is to develop buy signals for an algorithmic trading bot, enabling long-term position entry at favorable and strategic levels. The scripts utilize popular technical indicators and signals to identify potential entry points for algorithmic trading.
+## MACD Script
 
-## Table of Contents
+### Overview
 
-- [Introduction](#introduction)
-- [Indicators and Signals](#indicators-and-signals)
-- [Scripts](#scripts)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Performance Metrics](#performance-metrics)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [Acknowledgments](#Acknowledgments)
-- [License](#license)
-- [Author](#author)
+The MACD script fetches historical stock price data from Yahoo Finance, calculates the MACD and Signal Line, and produces a time series plot with MACD plotted below the stock price. Users can customize the short-term, long-term, and signal span parameters for the MACD calculation.
 
-## Introduction
+### Usage
 
-Algorithmic trading aims to automate the process of buying and selling financial instruments based on predefined criteria. This repository focuses on the development of buy signals through technical analysis, allowing algorithmic trading bots to make informed decisions.
+1. Install the required libraries:
 
-## Indicators and Signals
+    ```bash
+    pip install pandas yfinance matplotlib
+    ```
 
-The scripts utilize a variety of technical indicators and signals, including but not limited to:
-- Moving Averages
-- MACD (Moving Average Convergence Divergence)
-- RSI (Relative Strength Index)
-- Bollinger Bands
-- and more...
+2. Run the script:
 
-The combination of these indicators helps identify potential entry points for long-term positions.
+    ```bash
+    python macd_script.py
+    ```
 
-## Scripts
+3. Follow the prompts to input asset tickers and date ranges, as well as MACD parameter values.
 
-- [macd_strategy.py](macd_strategy.py): Implements a trading strategy based on MACD crossovers.
-- [rsi_strategy.py](rsi_strategy.py): Implements a trading strategy based on RSI levels.
-- [moving_average_strategy.py](moving_average_strategy.py): Implements a trading strategy based on moving average crossovers.
+4. View the generated time series plot with MACD.
 
-Feel free to explore and modify these scripts to suit your specific requirements.
+### Dependencies
 
-## Getting Started
+- pandas
+- yfinance
+- matplotlib
 
-1. Clone the repository:
+## Bollinger Bands Script
 
-   ```bash
-   git clone https://github.com/your-username/Technical-Analysis-for-Algo-Trading.git
-   cd Technical-Analysis-for-Algo-Trading
+### Overview
 
-## Usage
- 
-Explore the scripts and customize parameters as needed for your trading strategy. Run the scripts to generate buy signals based on technical analysis.
+The Bollinger Bands script fetches historical stock price data from Yahoo Finance, calculates Bollinger Bands, and generates a time series plot with the stock price and Bollinger Bands. Users can customize the window size and standard deviation for the Bollinger Bands calculation.
 
-## Performance Metrics
+### Usage
 
-Evaluate the performance of the trading strategies by analyzing profitability, total return, and other relevant metrics. The performance results are printed at the end of each script execution.
-  
-## Dependencies
+1. Install the required libraries:
 
-Python 3
-Required Python packages (listed in requirements.txt)
+    ```bash
+    pip install pandas yfinance matplotlib
+    ```
 
-## Contributing
+2. Run the script:
 
-Feel free to contribute by opening issues, suggesting enhancements, or submitting pull requests. Your feedback and contributions are highly appreciated.
+    ```bash
+    python bollinger_bands_script.py
+    ```
 
-## Acknowledgments
+3. Follow the prompts to input asset tickers, date range, window size, and standard deviation values.
+
+4. View the generated time series plot with Bollinger Bands.
+
+### Dependencies
+
+- pandas
+- yfinance
+- matplotlib
+
+## Contributors
+
+- [Nicky Taylor](https://github.com/CoderNicky)
+
+Feel free to contribute, report issues, or suggest improvements!
 
 ## License
 
 This project is licensed under the MIT License.
-
-## Author
-
-[Nicky Taylor](https://github.com/CoderNicky)
-
-### References
-
-
